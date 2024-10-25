@@ -1,4 +1,4 @@
-import { Moon, Menu, ArrowUpRight, Github } from "lucide-react";
+import { Moon, Menu, ArrowUpRight, Github, Paperclip } from "lucide-react";
 import { useState } from "react";
 function App() {
   const [toggle, setToggle] = useState(false);
@@ -79,8 +79,14 @@ function App() {
                   <p>React, Redux, Tailwind</p>
                 </div>
                 <div className="project__link">
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://github.com/riddsep/chill-movieapp.git"
+                    target="_blank"
+                  >
                     <Github color={"#ffffff"} />
+                  </a>
+                  <a href="https://chill-movieapp.vercel.app/" target="_blank">
+                    <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
               </div>
@@ -88,25 +94,46 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
-                  <h3>Testimonial</h3>
-                  <p>HTML, SASS</p>
+                  <h3>Todolist</h3>
+                  <p>HTML, CSS, Javascript</p>
                 </div>
                 <div className="project__link">
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://github.com/riddsep/todolist-app.git"
+                    target="_blank"
+                  >
                     <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://todolist-mission.vercel.app/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
               </div>
             </div>
             <div className="project">
-              <div className="project__info">
+              <div
+                className="project__info"
+                href="https://v1-blackjack-game.vercel.app/"
+              >
                 <div className="project__bio">
-                  <h3>Card Feature Section</h3>
-                  <p>HTML, SASS</p>
+                  <h3>Blackjack</h3>
+                  <p>HTML, CSS, Javascript</p>
                 </div>
                 <div className="project__link">
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://github.com/riddsep/blackjack-game.git"
+                    target="_blank"
+                  >
                     <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://v1-blackjack-game.vercel.app/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
               </div>
@@ -118,8 +145,17 @@ function App() {
                   <p>HTML, CSS, Javascript</p>
                 </div>
                 <div className="project__link">
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://github.com/riddsep/rock-paper-scissors.git"
+                    target="_blank"
+                  >
                     <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/rock-paper-scissors/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
               </div>
@@ -127,12 +163,18 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
-                  <h3>Project One</h3>
-                  <p>React, Redux, SASS</p>
+                  <h3>Jobless</h3>
+                  <p>HTML, CSS</p>
                 </div>
                 <div className="project__link">
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://github.com/riddsep/jobless.git"
+                    target="_blank"
+                  >
                     <Github color={"#ffffff"} />
+                  </a>
+                  <a href="https://v1-jobless.vercel.app/" target="_blank">
+                    <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
               </div>
@@ -140,12 +182,87 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
-                  <h3>Project One</h3>
-                  <p>React, Redux, SASS</p>
+                  <h3>Feature Section</h3>
+                  <p>HTML, SASS</p>
                 </div>
                 <div className="project__link">
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://github.com/riddsep/four-card-feature-section.git"
+                    target="_blank"
+                  >
                     <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/four-card-feature-section/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
+                  <h3>Card Component</h3>
+                  <p>HTML, SASS</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/Product-preview-card-component.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/Product-preview-card-component/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
+                  <h3>Recette</h3>
+                  <p>HTML, CSS</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/recipes-page.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/recipes-page/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
+                  <h3>Testimonial</h3>
+                  <p>HTML, CSS</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/testimonials-grid-section-main.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/testimonials-grid-section-main/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
               </div>

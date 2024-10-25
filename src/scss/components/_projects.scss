@@ -16,14 +16,13 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: minmax(250px, auto);
     gap: 1rem;
-    margin-block-start: 3rem;
+    margin-block: 3rem;
 
     .project {
       background-position: center;
       background-size: cover;
       border-radius: 0.5rem;
       transition: 0.4s ease-in-out;
-      cursor: pointer;
       text-align: left;
 
       &:hover {
@@ -38,6 +37,7 @@
         padding: 1rem;
         color: var(--text-white);
         opacity: 0;
+        text-decoration: none;
 
         &:hover {
           opacity: 1;
@@ -47,25 +47,38 @@
       &__bio {
         align-self: flex-end;
       }
+      &__link {
+        display: flex;
+        cursor: pointer;
+      }
     }
 
     & > :nth-child(1) {
       background: url("/assets/project/project-one.png") center center/cover;
     }
     & > :nth-child(2) {
-      background: url("/assets/project/project-one.png") center center/cover;
+      background: url("/assets/project/project-two.png") center center/cover;
     }
     & > :nth-child(3) {
-      background: url("/assets/project/project-one.png") center center/cover;
+      background: url("/assets/project/project-three.png") center center/cover;
     }
     & > :nth-child(4) {
-      background: url("/assets/project/project-one.png") center center/cover;
+      background: url("/assets/project/project-four.png") center center/cover;
     }
     & > :nth-child(5) {
-      background: url("/assets/project/project-one.png") center center/cover;
+      background: url("/assets/project/project-five.png") center center/cover;
     }
     & > :nth-child(6) {
-      background: url("/assets/project/project-one.png") center center/cover;
+      background: url("/assets/project/project-six.png") center center/cover;
+    }
+    & > :nth-child(7) {
+      background: url("/assets/project/project-seven.png") center center/cover;
+    }
+    & > :nth-child(8) {
+      background: url("/assets/project/project-eight.png") center center/cover;
+    }
+    & > :nth-child(9) {
+      background: url("/assets/project/project-nine.png") center center/cover;
     }
   }
 }
