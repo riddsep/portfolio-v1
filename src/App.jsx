@@ -1,6 +1,6 @@
 import { Moon, Menu, ArrowUpRight, Github, Paperclip } from "lucide-react";
 import { useState } from "react";
-import "./scss/style.scss";
+import "../scss/style.scss";
 function App() {
   const [toggle, setToggle] = useState(false);
   return (
