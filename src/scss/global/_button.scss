@@ -1,0 +1,15 @@
+@use "../util/" as u;
+
+.btn {
+  padding: u.rem(12) u.rem(30);
+  border-radius: u.rem(30);
+  cursor: pointer;
+
+  &--primary {
+    background: var(--primary-color);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
