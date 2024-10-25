@@ -1,0 +1,44 @@
+@use "../util/" as u;
+
+.hero {
+  width: 100%;
+  max-width: u.rem(1024);
+  min-height: calc(100svh - u.rem(84));
+  margin-inline: auto;
+  text-align: center;
+  padding-inline: u.rem(16);
+  padding-block: u.rem(24) u.rem(40);
+
+  border-bottom: 3px solid hsla(0, 0%, 0%, 0.1);
+
+  &__profile {
+    width: 100%;
+    max-width: u.rem(200);
+    margin-inline: auto;
+  }
+  &__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+  }
+
+  &__greeting {
+    font-size: u.rem(24);
+    font-weight: 700;
+  }
+  &__headline {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-block: 1rem;
+  }
+  &__description {
+    margin-block-end: 2rem;
+  }
+
+  &__button {
+    text-decoration: none;
+  }
+}

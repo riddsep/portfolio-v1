@@ -12,4 +12,12 @@
       opacity: 0.8;
     }
   }
+  &--secondary {
+    background: var(--bg-secondary);
+    color: var(--text-white);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
