@@ -61,7 +61,11 @@ function App() {
             opportunities to kickstart my career.
           </p>
 
-          <a href="#" className="btn btn--secondary hero__button">
+          <a
+            href="https://github.com/riddsep"
+            className="btn btn--secondary hero__button"
+            target="_blank"
+          >
             Connect with me
           </a>
         </section>
@@ -270,6 +274,42 @@ function App() {
           </div>
         </section>
       </main>
+      <footer className="footer" id="footer">
+        <div className="footer__container">
+          <a href="mailto:ridoseptiawan00@gmail.com" className="footer__email">
+            ridoseptiawan00@gmail.com
+          </a>
+          <div className="footer__social">
+            <a
+              href="https://www.linkedin.com/in/ridoseptiawan/"
+              target="_blank"
+              className="footer__social-link"
+            >
+              <img
+                src="./assets/linkedin-icon.svg"
+                alt="Linkedin"
+                className="footer__social-icon"
+              />
+            </a>
+            <a
+              href="https://github.com/riddsep"
+              target="_blank"
+              className="footer__social-link"
+            >
+              <img
+                src="./assets/github-icon.svg"
+                alt="GitHub"
+                className="footer__social-icon"
+              />
+            </a>
+          </div>
+
+          <p className="footer__copyright">
+            Copyright &copy; ridoseptiawan <span id="datee"></span>, All rights
+            reserved
+          </p>
+        </div>
+      </footer>
     </>
   );
 }

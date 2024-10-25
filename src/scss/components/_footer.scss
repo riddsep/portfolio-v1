@@ -1,0 +1,30 @@
+.footer {
+  background-color: hsl(0, 0%, 0%);
+  color: var(--text-white);
+
+  &__container {
+    width: 100%;
+    max-width: 1024px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    padding-block: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  &__social-icon {
+    width: 20px;
+  }
+
+  &__email {
+    color: var(--text-white);
+    text-decoration: none;
+  }
+}

@@ -6,6 +6,7 @@
   margin-inline: auto;
   margin-block-start: u.rem(60);
   text-align: center;
+  padding-inline: u.rem(16);
 
   @include u.breakpoint(large) {
     margin-block-start: u.rem(100);
