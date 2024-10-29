@@ -98,6 +98,25 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
+                  <h3>Geminix</h3>
+                  <p>React, CSS</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/geminix.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a href="https://geminix-wine.vercel.app/" target="_blank">
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
                   <h3>Todolist</h3>
                   <p>HTML, CSS, Javascript</p>
                 </div>
