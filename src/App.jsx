@@ -26,7 +26,7 @@ function App() {
               </a>
             </li>
             <li className="nav__item btn btn--primary">
-              <a href="#" className="nav__link">
+              <a href="/CV_Ridoseptiawan.pdf" className="nav__link">
                 Resume
                 <ArrowUpRight size={20} />
               </a>
