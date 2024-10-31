@@ -98,7 +98,7 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
-                  <h3>Geminix</h3>
+                  <h3>Gemini </h3>
                   <p>React, CSS</p>
                 </div>
                 <div className="project__link">
