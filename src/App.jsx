@@ -177,6 +177,91 @@ function App() {
                 </div>
               </div>
             </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
+                  <h3>Card Section</h3>
+                  <p>HTML, SCSS</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/card-feature-section.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/card-feature-section/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
+                  <h3>Rock Paper Scissors</h3>
+                  <p>HTML, CSS, Javascript</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/rock-paper-scissors.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/rock-paper-scissors/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
+                  <h3>Blackjack</h3>
+                  <p>HTML, CSS, Javascript</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/rock-paper-scissors.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a
+                    href="https://riddsep.github.io/rock-paper-scissors/"
+                    target="_blank"
+                  >
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project">
+              <div className="project__info">
+                <div className="project__bio">
+                  <h3>Teamflow</h3>
+                  <p>HTML, CSS</p>
+                </div>
+                <div className="project__link">
+                  <a
+                    href="https://github.com/riddsep/team-flow.git"
+                    target="_blank"
+                  >
+                    <Github color={"#ffffff"} />
+                  </a>
+                  <a href="https://v1-team-flow.vercel.app/" target="_blank">
+                    <Paperclip color={"#ffffff"} />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
