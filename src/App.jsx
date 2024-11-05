@@ -98,31 +98,12 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
-                  <h3>Gemini </h3>
-                  <p>React, CSS</p>
-                </div>
-                <div className="project__link">
-                  <a
-                    href="https://github.com/riddsep/geminix.git"
-                    target="_blank"
-                  >
-                    <Github color={"#ffffff"} />
-                  </a>
-                  <a href="https://geminix-wine.vercel.app/" target="_blank">
-                    <Paperclip color={"#ffffff"} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <div className="project__info">
-                <div className="project__bio">
                   <h3>Todolist</h3>
                   <p>HTML, CSS, Javascript</p>
                 </div>
                 <div className="project__link">
                   <a
-                    href="https://github.com/riddsep/todolist-app.git"
+                    href="https://github.com/riddsep/todol.git"
                     target="_blank"
                   >
                     <Github color={"#ffffff"} />
@@ -137,25 +118,19 @@ function App() {
               </div>
             </div>
             <div className="project">
-              <div
-                className="project__info"
-                href="https://v1-blackjack-game.vercel.app/"
-              >
+              <div className="project__info">
                 <div className="project__bio">
-                  <h3>Blackjack</h3>
+                  <h3>Pig Game</h3>
                   <p>HTML, CSS, Javascript</p>
                 </div>
                 <div className="project__link">
                   <a
-                    href="https://github.com/riddsep/blackjack-game.git"
+                    href="https://github.com/riddsep/pig-game.git"
                     target="_blank"
                   >
                     <Github color={"#ffffff"} />
                   </a>
-                  <a
-                    href="https://v1-blackjack-game.vercel.app/"
-                    target="_blank"
-                  >
+                  <a href="https://riddsep.github.io/pig-game/" target="_blank">
                     <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
@@ -164,18 +139,18 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
-                  <h3>Rock Paper Scissors</h3>
+                  <h3>Guess my number</h3>
                   <p>HTML, CSS, Javascript</p>
                 </div>
                 <div className="project__link">
                   <a
-                    href="https://github.com/riddsep/rock-paper-scissors.git"
+                    href="https://github.com/riddsep/guess-mynumber.git"
                     target="_blank"
                   >
                     <Github color={"#ffffff"} />
                   </a>
                   <a
-                    href="https://riddsep.github.io/rock-paper-scissors/"
+                    href="https://riddsep.github.io/guess-mynumber/"
                     target="_blank"
                   >
                     <Paperclip color={"#ffffff"} />
@@ -196,95 +171,7 @@ function App() {
                   >
                     <Github color={"#ffffff"} />
                   </a>
-                  <a href="https://v1-jobless.vercel.app/" target="_blank">
-                    <Paperclip color={"#ffffff"} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <div className="project__info">
-                <div className="project__bio">
-                  <h3>Feature Section</h3>
-                  <p>HTML, SASS</p>
-                </div>
-                <div className="project__link">
-                  <a
-                    href="https://github.com/riddsep/four-card-feature-section.git"
-                    target="_blank"
-                  >
-                    <Github color={"#ffffff"} />
-                  </a>
-                  <a
-                    href="https://riddsep.github.io/four-card-feature-section/"
-                    target="_blank"
-                  >
-                    <Paperclip color={"#ffffff"} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <div className="project__info">
-                <div className="project__bio">
-                  <h3>Card Component</h3>
-                  <p>HTML, SASS</p>
-                </div>
-                <div className="project__link">
-                  <a
-                    href="https://github.com/riddsep/Product-preview-card-component.git"
-                    target="_blank"
-                  >
-                    <Github color={"#ffffff"} />
-                  </a>
-                  <a
-                    href="https://riddsep.github.io/Product-preview-card-component/"
-                    target="_blank"
-                  >
-                    <Paperclip color={"#ffffff"} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <div className="project__info">
-                <div className="project__bio">
-                  <h3>Recette</h3>
-                  <p>HTML, CSS</p>
-                </div>
-                <div className="project__link">
-                  <a
-                    href="https://github.com/riddsep/recipes-page.git"
-                    target="_blank"
-                  >
-                    <Github color={"#ffffff"} />
-                  </a>
-                  <a
-                    href="https://riddsep.github.io/recipes-page/"
-                    target="_blank"
-                  >
-                    <Paperclip color={"#ffffff"} />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <div className="project__info">
-                <div className="project__bio">
-                  <h3>Testimonial</h3>
-                  <p>HTML, CSS</p>
-                </div>
-                <div className="project__link">
-                  <a
-                    href="https://github.com/riddsep/testimonials-grid-section-main.git"
-                    target="_blank"
-                  >
-                    <Github color={"#ffffff"} />
-                  </a>
-                  <a
-                    href="https://riddsep.github.io/testimonials-grid-section-main/"
-                    target="_blank"
-                  >
+                  <a href="https://riddsep.github.io/jobless/" target="_blank">
                     <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
