@@ -224,20 +224,17 @@ function App() {
             <div className="project">
               <div className="project__info">
                 <div className="project__bio">
-                  <h3>Blackjack</h3>
+                  <h3>Bankist</h3>
                   <p>HTML, CSS, Javascript</p>
                 </div>
                 <div className="project__link">
                   <a
-                    href="https://github.com/riddsep/rock-paper-scissors.git"
+                    href="https://github.com/riddsep/bankist.git"
                     target="_blank"
                   >
                     <Github color={"#ffffff"} />
                   </a>
-                  <a
-                    href="https://riddsep.github.io/rock-paper-scissors/"
-                    target="_blank"
-                  >
+                  <a href="https://riddsep.github.io/bankist/" target="_blank">
                     <Paperclip color={"#ffffff"} />
                   </a>
                 </div>
